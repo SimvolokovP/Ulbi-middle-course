@@ -1,0 +1,40 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.h100 {
+    height: calc(100vh - 64px);
+}
+
+.loader {
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #FFFFFF;
+    z-index: 20;
+}
+
+.fixed-btn {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 10;
+}
